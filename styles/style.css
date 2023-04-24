@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.footer {
+    padding: 16px;
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 16px;
+    background: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.right-link ul a {
+    font-size: 18px;
+}
+
+.right-link ul a:hover {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.right-link ul {
+    display: flex;
+    gap: 16px;
+}
+
+.body {
+    flex: 1;
+}
+
+.intro {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    padding: 32px;
+}
+
+.intro-text {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    width: 600px;
+}
+
+.intro-text p {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.intro-text button {
+    padding: 8px 32px;
+    border: none;
+    color: #e5e7eb;
+    background: #3882f6;
+    border-radius: 8px;
+}
+
+#profile {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info {
+    text-align: center;
+    padding: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    gap: 52px;
+}
+
+.card-holder p {
+    font-size: 14px;
+    color: #1f2937;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-holder {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+.quote {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    padding: 32px;
+}
+
+.quote p {
+    max-width: 800px;
+}
+
+.action-call {
+    padding: 64px;
+}
+
+.action-card {
+    background: #3882f6;
+    border-radius: 5px;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-holder {
+    color: #e5e7eb;
+}
+
+.action-holder p, .action-holder h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.action-card button {
+    padding: 8px 32px;
+    border: none;
+    color: #e5e7eb;
+    background: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+}
